@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/music-audio-devices-filament",
+  "description": "Audio Devices and Monitoring Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capabilityb2072052fe5c\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "music-audio-devices-filament"
+    }
+  }
+}
